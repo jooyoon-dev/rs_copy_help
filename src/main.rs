@@ -1,3 +1,8 @@
+extern crate mylib;
+
+use mylib::*;
+
 fn main() {
-    println!("Hello, world!");
+    let a = test();
+    println!("{}",a);
 }
